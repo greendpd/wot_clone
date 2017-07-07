@@ -32,7 +32,11 @@ body {
 
 .ham{
   display: none;
+}
 
+.ham img{
+  height:20px;
+  width:auto;
 }
 
 .navbar a {
@@ -72,8 +76,16 @@ body {
 }
 
 .three-parts{
-  display:block;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
+.span-line{
+  border: 3px solid white;
+  width: 40%;
+  max-width: 70px;
+  height: 0px;
 }
 
 .centered-text{
@@ -81,6 +93,7 @@ body {
   font-family: 'Oswald';
   font-size: 20px;
 }
+
 
 .top-greeting em{
   color: #F57B39;
