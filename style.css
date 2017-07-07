@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box; //makes margins work better?
+}
+
+body {
+  margin: 0;
+}
+
+.top-of-site {
+  background-image: url(./img/img/wot-masthead-dark.jpg);
+  background-size: cover;
+  background-color: black;
+  height: 520px;
+}
+
+.sticky-top {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 35px;
+}
+
+.logo {
+  height:31px;
+  width:155px;
+}
+
+.links{
+  display: block;
+}
+
+.ham{
+  display: none;
+
+}
+
+.navbar a {
+  color: white;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.top-greeting{
+  color: #ffffff;
+  margin: 80px auto;
+  width:35%;
+  font-family: sans-serif;
+  display:flex;
+  flex-direction: column;
+}
+
+.left-25px-font{
+  font-size: 30px;
+  font-family: 'Oswald';
+  text-transform: uppercase;
+  margin-bottom: -170px;
+
+
+}
+
+.left-115px-font{
+  font-size: 130px;
+  font-family: 'Oswald';
+  text-transform: uppercase;
+  margin-bottom: -30px;
+}
+
+.three-parts{
+  display:block;
+
+}
+
+.centered-text{
+  text-align: center;
+  font-family: 'Oswald';
+  font-size: 20px;
+}
+
+.top-greeting em{
+  color: #F57B39;
+  font-style: normal;
+}
+
+.line{
+  background-color: white;
+  border: medium dashed green;
+}
+
+.green-button{
+  background-color: #C8E23A;
+  border: none;
+  padding:15px 32px;
+  color: white;
+  width:360px;
+  height: 48.4px;
+  margin:auto;
+  border-radius: 30px;
+  border
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.summary{
+  background-color: #F0F0F0;
+  height:374.6px;
+  padding-left: 25%;
+  padding-right: 25%;
+  display: flex;
+  text-align: center;
+}
+
+.summary-text{
+  font-family: 'Open Sans';
+  font-size: 24px;
+  color:#6a787c;
+  line-height: 36px;
+}
+
+.final-text{
+  font-family: Oswald;
+  font-size: 42px;
+  text-transform: uppercase;
+}
+
+.final-text em{
+  color: #bdd436;
+  font-weight: bold;
+  font-style: normal;
+}
+
+@media(max-width:1015px){
+  .links{
+    display:none;
+  }
+  .ham{
+    display: block;
+  }
+}
